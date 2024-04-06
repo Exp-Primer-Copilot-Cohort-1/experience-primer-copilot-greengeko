@@ -28,4 +28,5 @@ function skillsMember() {
   var memberSkillsList = document.getElementById("memberSkillsList");
   var memberSkillsListValue = memberSkillsList.options[memberSkillsList.selectedIndex].value;
   var memberSkillsListText = memberSkillsList.options[memberSkillsList.selectedIndex].text;
-  var memberSkillsListValue = memberSkillsList.options[member
+  var memberSkillsListValue = memberSkillsList.options[memberSkillsList.selectedIndex].value;
+}
